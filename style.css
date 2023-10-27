@@ -1,0 +1,37 @@
+body{
+    text-align: center;
+    background-color:#ccc;
+    background-image:url(https://media2.giphy.com/media/6YXmxRMrjKZMLUree4/giphy.gif?cid=ecf05e47027rpbpuqvvcg6imc88w7aidqbz5fo8vh6fqxiby&ep=v1_gifs_related&rid=giphy.gif&ct=g);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.meme-generator{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    
+}
+.meme-generator-img{
+    height: 430px;
+    object-fit: cover;
+}
+.generate-meme-btn{
+    padding: 8px 20px;
+    border: none;
+    border-left: 4px solid #222;
+    border-right: 4px solid #222;
+    margin: 24px 0;
+    font-size: 20px;
+    color: #f64d4d;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+.generate-meme-btn:hover{
+    padding: 8px 36px;
+    letter-spacing: 3px;
+    border-left: 8px solid #222;
+    border-right: 8px solid #222;
+}
+.meme-author{
+ margin: 8px;
+}
